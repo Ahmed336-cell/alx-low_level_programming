@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - main function to run
  * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
@@ -11,10 +11,10 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		printf("%c",c);
+		putchar(c);
 		c++;
 	}
 
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
